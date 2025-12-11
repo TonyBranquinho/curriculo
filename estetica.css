@@ -44,3 +44,32 @@ h3 {
 .lista {
     padding: 0px 0px 0px 20px;
 }
+
+a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover{
+    text-decoration: underline; /* Underline on hover */
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li {
+    list-style-type: none;
+    background-color: yellow;
+    display: inline-block;
+    padding: 0px;
+}
+
+.menu a {
+    background-color: rgb(140, 181, 190);
+    padding: 16px;
+    display: block;
+}
+
+.menu a:hover {                /* Hover effect for menu links */
+    background-color: orange;
+}
